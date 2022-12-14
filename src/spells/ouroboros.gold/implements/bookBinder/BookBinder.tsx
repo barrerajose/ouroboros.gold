@@ -11,6 +11,7 @@ import {ParagraphProcessor} from "./processors/ParagraphProcessor"
 import {SigilProcessor} from "./processors/SigilProcessor"
 import {SvgProcessor} from "./processors/SvgProcessor"
 import {TitleProcessor} from "./processors/TitelProcessor"
+import {useMemoIfEqual} from "../../../elementals/react/useMemoIfEqual"
 
 export function BookBinder({
   entityName,
@@ -36,17 +37,20 @@ export function BookBinder({
       const text = await summon(Directory.resolve(entityName))
       return await Promise.all(parser(text))
     }
+
+    console.log("rendering", entityName, appearance)
     load()
       .then(setComponents)
       .then(() => onFinished?.())
-  }, [entityName, appearance])
+  }, [useMemoIfEqual([entityName, appearance])])
 
   return (
     <div
       className={classes(
         "flex flex-col items-stretch ",
         appearance.font,
-        appearance.paper
+        appearance.paper,
+        appearance.textColor
       )}
     >
       {!components.length ? "Nothing" : <>{components}</>}
