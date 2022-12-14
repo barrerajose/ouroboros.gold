@@ -9,7 +9,7 @@ export const ImageProcessor = TagProcessor({
   async process({suffix, id}) {
     const [src, ...classNames] = suffix.split(/,/)
     return (
-      <div key={id} data-tag="IMG" className="self-center m-4 flex relative">
+      <div key={id} data-tag="IMG" className="self-center m-4 flex relative ">
         <img
           className={classes(...classNames.map(c => "ouroboros-gold-" + c))}
           src={await summon(Directory.resolve(src))}

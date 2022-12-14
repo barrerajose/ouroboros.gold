@@ -118,7 +118,8 @@
                 "hash.tsx",
                 "mapEntries.ts",
                 "merge.ts",
-                "random.tsx"
+                "random.tsx",
+                "toInt.ts"
               ],
               "parent": "./spells/elementals"
             },

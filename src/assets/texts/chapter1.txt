@@ -1,7 +1,9 @@
 <CT> ouroboros.gold 8.o
 <ST> A Grimoire for Coders written in __TypeScript__
-<IMG> ./assets/images/ouroboros.webp,centered,width-50,page-break-after
+<IMG> ./assets/images/ouroboros.webp,centered,width-50
 <SVG> ./assets/images/ouroboros.svg
+<SIGIL> ./assets/images/ouroboros.webp,OUROBOROS.GOLD
+
 <CT> What's in a name?
 
 “There are only two hard things in Computer Science: cache invalidation and naming things.”
@@ -52,11 +54,12 @@ La tercera categoría son Los agentes. Ellos se encargan de reconfigurar los obj
 
 <CT> Flask
 <IMG> ./assets/images/flask.jpg,centered,width-50
-<T>
-This chapter describes the intricacies of writing good, polished code.
-It is the first example of running the app.
-<SIGIL> ./assets/images/ouroboros.webp,OUROBOROS.GOLD
-<CODE> ./spells/ouroboros.gold
+<T 2>
+An alchemical flask is a vessel that holds the alchemical work that you are doing. It is a container that holds your material work, which is the work of transmuting objects within reality. The flask is what you put your work into so that you can keep it contained and controlled while you work with it. It is like a crucible, only instead of heating material in it, it serves as a container that holds your work while you do your transmutations.
+An alchemical flask is an alchemy device that is used for mixing substances together to create potions. It is used to mix liquids and powders together. The flask allows you to mix these substances by shaking it in a way that mixes them together without any parts of the flask coming into contact with those substances. This helps to avoid contamination in the flasks, so that you can mix different substances together without having to worry about contamination.
+The alchemical flask is a very important part of the alchemy process. Without the alchemical flask, it would be much more difficult to mix substances together.
+<SIGIL> ./spells/elementals/Flask.ts,FLASK, 150
+<CODE> ./spells/elementals/Flask.ts
 <T>Civilization building as we know it dates back to these
 original episodes of domestication that emerged after the end of the
 ice age (circa 11,000 to 5000 BCE). At that time it appears that global
