@@ -1,0 +1,7 @@
+npx create-react-app ouroboros.gold --template typescript
+cd ouroboros.gold
+yarn add tailwindcss postcss autoprefixer -D
+npx tailwindcss init -p
+yarn add prettier -D
+yarn add eslint-config-prettier -D
+yarn add gently-copy -D

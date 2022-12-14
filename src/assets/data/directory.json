@@ -1,0 +1,273 @@
+{
+  "dirs": {
+    "ouroboros.gold": {
+      "dirs": {
+        "@types": {
+          "dirs": {},
+          "files": [
+            "decs.d.ts",
+            "modules.d.ts"
+          ],
+          "parent": "ouroboros.gold/@types"
+        },
+        "assets": {
+          "dirs": {
+            "data": {
+              "dirs": {},
+              "files": [
+                "directory.json"
+              ],
+              "parent": "ouroboros.gold/assets/data"
+            },
+            "fonts": {
+              "dirs": {},
+              "files": [
+                "1550.ttf",
+                "AureWestraCJ.ttf",
+                "AureWestraKB.ttf",
+                "Inconsolata[wdth,wght].ttf",
+                "YanoneTagesschrift.ttf",
+                "fonts.css"
+              ],
+              "parent": "ouroboros.gold/assets/fonts"
+            },
+            "images": {
+              "dirs": {},
+              "files": [
+                "flask.jpg",
+                "head.svg",
+                "ouroboros.svg",
+                "ouroboros.webp",
+                "sigil.svg"
+              ],
+              "parent": "ouroboros.gold/assets/images"
+            },
+            "texts": {
+              "dirs": {},
+              "files": [
+                "chapter1.txt"
+              ],
+              "parent": "ouroboros.gold/assets/texts"
+            }
+          },
+          "files": [],
+          "parent": "ouroboros.gold/assets"
+        },
+        "spells": {
+          "dirs": {
+            "elementals": {
+              "dirs": {
+                "beacons": {
+                  "dirs": {},
+                  "files": [
+                    "Beacon.ts",
+                    "useBeacon.ts"
+                  ],
+                  "parent": "ouroboros.gold/spells/elementals/beacons"
+                },
+                "react": {
+                  "dirs": {
+                    "gadgets": {
+                      "dirs": {},
+                      "files": [
+                        "CheckBox.tsx"
+                      ],
+                      "parent": "ouroboros.gold/spells/elementals/react/gadgets"
+                    },
+                    "routing": {
+                      "dirs": {},
+                      "files": [
+                        "useQueryParams.ts",
+                        "useQueryParamsAsState.ts"
+                      ],
+                      "parent": "ouroboros.gold/spells/elementals/react/routing"
+                    }
+                  },
+                  "files": [
+                    "useAsync.ts",
+                    "useMemoIfEqual.ts",
+                    "useParams.ts",
+                    "useUniqueId.ts"
+                  ],
+                  "parent": "ouroboros.gold/spells/elementals/react"
+                },
+                "transmuters": {
+                  "dirs": {
+                    "implements": {
+                      "dirs": {},
+                      "files": [
+                        "Transmuter.ts"
+                      ],
+                      "parent": "ouroboros.gold/spells/elementals/transmuters/implements"
+                    }
+                  },
+                  "files": [
+                    "Transmuters.ts"
+                  ],
+                  "parent": "ouroboros.gold/spells/elementals/transmuters"
+                }
+              },
+              "files": [
+                "Emitter.ts",
+                "Flask.ts",
+                "Potion.ts",
+                "classes.test.ts",
+                "classes.ts",
+                "format.ts",
+                "getValue.ts",
+                "hash.tsx",
+                "mapEntries.ts",
+                "merge.ts",
+                "random.tsx"
+              ],
+              "parent": "ouroboros.gold/spells/elementals"
+            },
+            "implements": {
+              "dirs": {
+                "bookParser": {
+                  "dirs": {
+                    "elementals": {
+                      "dirs": {},
+                      "files": [
+                        "Reader.ts"
+                      ],
+                      "parent": "ouroboros.gold/spells/implements/bookParser/elementals"
+                    },
+                    "implements": {
+                      "dirs": {},
+                      "files": [
+                        "Parser.ts",
+                        "PatternProcessor.ts",
+                        "RichTect.tsx",
+                        "TagProcessors.ts"
+                      ],
+                      "parent": "ouroboros.gold/spells/implements/bookParser/implements"
+                    }
+                  },
+                  "files": [],
+                  "parent": "ouroboros.gold/spells/implements/bookParser"
+                },
+                "mandalas": {
+                  "dirs": {
+                    "elementals": {
+                      "dirs": {},
+                      "files": [
+                        "Polar.ts",
+                        "polarToXY.ts"
+                      ],
+                      "parent": "ouroboros.gold/spells/implements/mandalas/elementals"
+                    },
+                    "implements": {
+                      "dirs": {},
+                      "files": [
+                        "Circle.tsx",
+                        "CircleText.tsx",
+                        "PathBuilder.ts",
+                        "Polygon.tsx",
+                        "QrCode.tsx",
+                        "Star.tsx",
+                        "Text.tsx",
+                        "checkerboard.tsx",
+                        "createShape.tsx"
+                      ],
+                      "parent": "ouroboros.gold/spells/implements/mandalas/implements"
+                    }
+                  },
+                  "files": [
+                    "Mandala.tsx",
+                    "Paint.tsx"
+                  ],
+                  "parent": "ouroboros.gold/spells/implements/mandalas"
+                },
+                "summon": {
+                  "dirs": {
+                    "implements": {
+                      "dirs": {},
+                      "files": [
+                        "EntityTypes.ts",
+                        "Tree.ts"
+                      ],
+                      "parent": "ouroboros.gold/spells/implements/summon/implements"
+                    }
+                  },
+                  "files": [
+                    "Directory.ts",
+                    "summon.ts"
+                  ],
+                  "parent": "ouroboros.gold/spells/implements/summon"
+                }
+              },
+              "files": [],
+              "parent": "ouroboros.gold/spells/implements"
+            },
+            "ouroboros.gold": {
+              "dirs": {
+                "implements": {
+                  "dirs": {
+                    "bookBinder": {
+                      "dirs": {
+                        "processors": {
+                          "dirs": {},
+                          "files": [
+                            "CodeProcessor.tsx",
+                            "DefaultProcessor.tsx",
+                            "ImageProcessor.tsx",
+                            "ParagraphProcessor.tsx",
+                            "SigilProcessor.tsx",
+                            "SvgProcessor.tsx",
+                            "TitelProcessor.tsx"
+                          ],
+                          "parent": "ouroboros.gold/spells/ouroboros.gold/implements/bookBinder/processors"
+                        }
+                      },
+                      "files": [
+                        "BookBinder.tsx"
+                      ],
+                      "parent": "ouroboros.gold/spells/ouroboros.gold/implements/bookBinder"
+                    },
+                    "paginator": {
+                      "dirs": {},
+                      "files": [
+                        "paginator.css",
+                        "usePaginator.tsx"
+                      ],
+                      "parent": "ouroboros.gold/spells/ouroboros.gold/implements/paginator"
+                    },
+                    "sigils": {
+                      "dirs": {},
+                      "files": [
+                        "Sigil.tsx"
+                      ],
+                      "parent": "ouroboros.gold/spells/ouroboros.gold/implements/sigils"
+                    }
+                  },
+                  "files": [
+                    "Appearance.ts"
+                  ],
+                  "parent": "ouroboros.gold/spells/ouroboros.gold/implements"
+                }
+              },
+              "files": [
+                "index.tsx",
+                "ouroboros.gold.css"
+              ],
+              "parent": "ouroboros.gold/spells/ouroboros.gold"
+            }
+          },
+          "files": [],
+          "parent": "ouroboros.gold/spells"
+        }
+      },
+      "files": [
+        "index.css",
+        "index.tsx",
+        "react-app-env.d.ts",
+        "reportWebVitals.ts",
+        "setupTests.ts"
+      ],
+      "parent": "ouroboros.gold"
+    }
+  },
+  "files": [],
+  "parent": null
+}
