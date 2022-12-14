@@ -16,6 +16,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "chroma-js": "^2.4.2",
+    "encrypt-string": "^1.0.0",
     "lazy.js": "^0.5.1",
     "lodash": "^4.17.21",
     "marked": "^4.2.3",

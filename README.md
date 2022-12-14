@@ -1,4 +1,17 @@
->this is an important  message
+# Upload to cloud storage:
+gsutil -m rm -r gs://www.ouroboros.gold/\*
+cd build
+gsutil cp -r . gs://www.ouroboros.gold/
+gsutil web set -m index.html gs://www.ouroboros.gold/
+
+to grant bucket public access:
+https://cloud.google.com/storage/docs/access-control/making-data-public#:~:text=Terraform%20REST%20APIs-,In%20the%20Google%20Cloud%20console%2C%20go,the%20Cloud%20Storage%20Buckets%20page.&text=In%20the%20list%20of%20buckets,the%20person_add%20Grant%20access%20button.
+
+to setup google domain to point to bucket:
+https://stackoverflow.com/questions/40735724/connect-google-domain-to-google-cloud-bucket
+
+
+> >this is an important  message
 
 <table>
 <tr><td style="background-color: aqua">aaa</td><td>bbb</td></tr>

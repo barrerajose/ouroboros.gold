@@ -24,7 +24,7 @@ function createDirectory(dirFile) {
     dirFile,
     JSON.stringify(
       {
-        dirs: {["ouroboros.gold"]: getTree(src, "ouroboros.gold")},
+        dirs: {["."]: getTree(src, ".")},
         files: [],
         parent: null,
       },
@@ -34,13 +34,16 @@ function createDirectory(dirFile) {
   )
 }
 
-const target = "public/ouroboros.gold"
 const src = "src"
-
+const public_to_copy = "public_to_copy"
 createDirectory(src + "/assets/data/directory.json")
+
+const target = "public"
 
 console.log("Removing current", target)
 fs.rmSync(target, {recursive: true, force: true})
 
+console.log("Copying", public_to_copy, "to", target)
+gentlyCopy([public_to_copy], target, {overwrite: true})
 console.log("Copying", src, "to", target)
-gentlyCopy([src], target, {overwrite: true})
+gentlyCopy([src + "/."], target, {overwrite: true})

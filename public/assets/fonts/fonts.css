@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "AureWestraCJ";
+    src: url("./AureWestraCJ.ttf");
+}
+
+
+@font-face {
+font-family: "AureWestraKB";
+src: url("./AureWestraKB.ttf");
+}
+
+@font-face {
+    font-family: "F1550";
+    src: url("./1550.ttf");
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url("./Inconsolata[wdth,wght].ttf");
+}
+
+@font-face {
+    font-family: "YanoneTagesschrift";
+    src: url("./YanoneTagesschrift.ttf");
+}

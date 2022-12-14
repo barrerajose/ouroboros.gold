@@ -1,0 +1,25 @@
+.ouroboros-gold {
+    /*display: none;*/
+    /*width: 500px !important;*/
+}
+.ouroboros-gold-width-50 {
+    width: 50%;
+}
+
+.ouroboros-gold-centered {
+    justify-self: center;
+    align-items: center;
+}
+
+.ouroboros-gold-page-break-after {
+    page-break-after: always;
+}
+
+.pagedjs_page {
+    background: #D7C9AC;
+    box-shadow: 10px 12px 30px 0 rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+}
+
+.cover-page { page:  cover-page; break-after: page; background-color: red}
+.page-break { break-after: page; }

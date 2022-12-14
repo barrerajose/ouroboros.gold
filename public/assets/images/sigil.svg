@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+    <defs>
+        <path
+                d="
+        M 250, 250
+        m -100, 0
+        a 100,100 0 1,0 200,0
+        a 100,100 0 1,0 -200,0
+        "
+                fill="none"
+                id="path"
+        />
+
+        <style>
+            text {
+            font-size: 30px;
+            font-family: Franklin Gothic, sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0px;
+            }
+        </style>
+    </defs>
+    <text dy="30" textLength="600">
+        <textPath xlink:href="#path">
+            ABRACADABRA
+        </textPath>
+    </text>
+    <path
+            d="
+        M 250, 250
+        m -100, 0
+        a 100,100 0 1,0 200,0
+        a 100,100 0 1,0 -200,0
+        "
+            fill="none"
+            id="path"
+    />
+</svg>

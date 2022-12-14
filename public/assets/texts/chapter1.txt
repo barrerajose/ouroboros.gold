@@ -1,0 +1,64 @@
+<CT> ouroboros.gold 8.o
+<ST> A Grimoire for Coders written in __TypeScript__
+<IMG> ./assets/images/ouroboros.webp,centered,width-50,page-break-after
+<SVG> ./assets/images/ouroboros.svg
+<CT> What's in a name?
+
+“There are only two hard things in Computer Science: cache invalidation and naming things.”
+
+— Phil Karlton
+
+“What's in a name? That which we call a rose, by any other word would smell as sweet.”
+
+- Romeo and Juliet, William Shakespeare
+
+
+Juliet could not be more right, the smell will be the same, but some names are better than others. A name is just a reference to a reality, a distinguishable pattern. We could call a rose "Peter," "Lily," or "X," but we are opening the door to equivocation.
+
+Our Art, like taxidermy, is naming things. We come up with names all the time for the entities we conjure, but in a big and complex spell, keeping track of all those entities is a demonic task. Phil was right as well.
+
+Naming our creations is an intimate act that reveals our inner state. A misnomer is symptomatic of flaws in our conceptual understanding of the conundrum at hand. The entity we are conceiving will inherit our misconceptions.
+
+The creatures we manifested are a crystallization of our mental models. Our spells are linguistic machines animated by vibrating energy.
+
+There are many ways to attain our grail, but our success depends on how well our conception fits reality.
+
+Names should be succinct and precise and should describe what the entity is or does. Proper names are also
+
+Habitamos un mundo de patrones, nuestra realidad es sólida porque los millares de patrones que nos rodean son estables. Los carros, las casas, las calles, la gente van mudando lentamente con el tiempo. Por eso es que los podemos reconocer. Entre las innumerables configuraciones que nos rodean, ellas tan sólo entran en nuestra conciencia cuando las nombramos. En el momento en que nuestra atención se fija sobre un patrón y le damos un nombre, dicho patrón se convierte en una entidad estable y comienza a habitar en nuestras memorias. El acto de nombrar le confiere significado a las entidades.
+
+La materia prima existe debido a su dualidad. Lo activo y lo pasivo, objetos y acciones. La parte pasiva, cuyo símbolo alquímico es la luna, simboliza la materia. La parte activa cuyo símbolo alquímico es el sol, simboliza la energía. La materia y la energía son dos polos opuestos de la misma cosa. La energía permite la transformación de la materia, la transmutación de su forma, su configuración de un estado a otro.
+
+Podemos clasificar las entidades en cuatro categorías fundamentales.
+Los arquetipos, que representan una configuración, un patrón. Ellos son etéreos, e intangibles, existen en el reconocimiento que hacemos en nuestra mente de ellos. Dichos patrones arquetípicos son puramente psíquicos entre paréntesis mentales.
+La segunda categoría son los objetos, que son instancias concretas de los arquetipos. Son arquetipos congelados en la materia.
+La tercera categoría son Los agentes. Ellos se encargan de reconfigurar los objetos de un estado a otro. Ellos transforman Trance forma, cambio de configuración. ellos están definidos por su función, aquella es la que les confiere su existencia. Ellos están definidos por el tipo de transformación que ejecutan. Su nombre es el reconocimiento de dicha transformación, ellos son las tres mutaciones
+
+
+<CT> The Process of Creation
+<T>The Kabbalah is an ancient symbolic system that describes the process of creation.
+<T>It is divided in four steps:
+<T> Naming
+<T> Describing
+<T> Formation
+<T> Execution
+<CT> The Alchemical Wedding
+<T>King and Queen, Sun and Moon, Active and Passive, Transformation and Form, Functions and Data.
+<T>Solve et Coagula
+
+
+
+
+
+<CT> Flask
+<IMG> ./assets/images/flask.jpg,centered,width-50
+<T>
+This chapter describes the intricacies of writing good, polished code.
+It is the first example of running the app.
+<SIGIL> ./assets/images/ouroboros.webp,OUROBOROS.GOLD
+<CODE> ./spells/ouroboros.gold
+<T>Civilization building as we know it dates back to these
+original episodes of domestication that emerged after the end of the
+ice age (circa 11,000 to 5000 BCE). At that time it appears that global
+warming created a geographical area whose conditions were better suited
+for humans to grow crops and gather together.

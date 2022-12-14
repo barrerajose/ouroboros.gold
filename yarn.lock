@@ -3900,6 +3900,20 @@ encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==
 
+encrypt-string@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/encrypt-string/-/encrypt-string-1.0.0.tgz#321ee4da92ce996e33bc868cb8a3a41e1de80a6a"
+  integrity sha512-3eNoKQSeuQrItlK0JCWcDm7ikmh5hrJ+bIvLC8fjS84jVCnEB/sFWyM5glJJOChhCf06xsWXuz7PAFOCfpu3aQ==
+  dependencies:
+    encrypt-uint8array "^1.0.0"
+
+encrypt-uint8array@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/encrypt-uint8array/-/encrypt-uint8array-1.0.0.tgz#3706ca8e0fed01a498fdb2107dab698c71ac52c4"
+  integrity sha512-y4tP35IAADG8s+AbCqnw5J2zL+eWxyZvKBfbSVbmz34X7QlcFcryBcn6MQgj6LR+KpeW+A7CECcyemG2yz4rdg==
+  dependencies:
+    wasm-themis "^0.13.1"
+
 enhanced-resolve@^5.10.0:
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.10.0.tgz#0dc579c3bb2a1032e357ac45b8f3a6f3ad4fb1e6"
@@ -8998,6 +9012,11 @@ walker@^1.0.7:
   integrity sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==
   dependencies:
     makeerror "1.0.12"
+
+wasm-themis@^0.13.1:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/wasm-themis/-/wasm-themis-0.13.11.tgz#da504f8f03416d7099fbb11a16d2e01ea305c47a"
+  integrity sha512-xnHfCORQ3vZgscOYqkQwmlw2YXusTLfBAU/J9DUG+iE9iqU0vk7iMFWLu2Pmlywn5h7w6g0DAXIM2+6mXIrlwg==
 
 watchpack@^2.4.0:
   version "2.4.0"
